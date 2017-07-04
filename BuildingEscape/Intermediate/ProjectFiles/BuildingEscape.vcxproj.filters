@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\BuildingEscape.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{B2635A47-35C2-4D54-AA6D-435863449D1B}</UniqueIdentifier>
+			<UniqueIdentifier>{B4BF1F9B-905E-43FE-AE71-D175B93EA73C}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\BuildingEscape.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{7CCE9984-EE6D-4644-9D91-99471C2F8D58}</UniqueIdentifier>
+			<UniqueIdentifier>{D8300BED-A22B-46A4-9685-04EB84A2EB08}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,7 +25,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\BuildingEscape">
-			<UniqueIdentifier>{A357D78F-6EA5-4F62-89FD-5FB34A96B3C3}</UniqueIdentifier>
+			<UniqueIdentifier>{3C6D378C-814B-4495-AC26-CA0ED097DFEA}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\BuildingEscape\BuildingEscape.Build.cs">
 			<Filter>Source\BuildingEscape</Filter>
@@ -40,6 +40,12 @@
 			<Filter>Source\BuildingEscape</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\BuildingEscape\BuildingEscapeGameModeBase.h">
+			<Filter>Source\BuildingEscape</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BuildingEscape\PositionReport.cpp">
+			<Filter>Source\BuildingEscape</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BuildingEscape\PositionReport.h">
 			<Filter>Source\BuildingEscape</Filter>
 		</ClInclude >
 	</ItemGroup>
